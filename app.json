@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "معاك",
+    "slug": "maak",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a9396"
+    },
+   "android": {
+  "package": "com.omarmaro2.maak",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a9396"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "39f4d4fb-39ab-4884-bfff-26db4431cb8c"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.maak.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "owner": "hyrdsr"
+  }
+}
